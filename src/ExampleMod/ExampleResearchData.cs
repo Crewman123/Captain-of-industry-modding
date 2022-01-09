@@ -16,6 +16,7 @@ namespace ExampleMod {
 				.AddProductToUnlock(MyIds.Products.MyExcitingUnitProduct)
 				.AddProductToUnlock(MyIds.Products.MyMajesticMoltenProduct)
 				.AddRecipeToUnlock(MyIds.Recipes.MySmoothSmelting)
+				//.SetCosts(new ResearchCostsTpl(1))
 				.BuildAndAdd();
 
 			nodeProto.GridPosition = new Vector2i(4, 31);

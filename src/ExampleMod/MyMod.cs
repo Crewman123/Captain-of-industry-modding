@@ -8,10 +8,12 @@ namespace ExampleMod {
 
 		public override string Name => "Example mod";
 
+        public override int Version => throw new System.NotImplementedException();
 
-		// Constructor that lists mod dependencies as parameters. You probably want to depend on both core and base
-		// mods so this mod will be initialized after them.
-		public MyMod(CoreMod coreMod, BaseMod baseMod) {
+
+        // Constructor that lists mod dependencies as parameters. You probably want to depend on both core and base
+        // mods so this mod will be initialized after them.
+        public MyMod(CoreMod coreMod, BaseMod baseMod) {
 			Log.Info("My mod was created!");
 		}
 
